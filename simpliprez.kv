@@ -1,0 +1,46 @@
+# PresentWidget:
+WindowManager:
+
+<WindowManager>:
+    EditScreen:
+    PresentScreen:
+
+<EditScreen>:
+    name: 'edit'
+    MainWidget:
+
+<PresentScreen>:
+    name: 'present'
+    PresentWidget:
+
+<PresentWidget>:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint: 1,0.1
+        
+        Label:
+            markup: True
+            size_hint: 0.85,1
+            text: 'SIMPLI-PREZ'
+        
+        Button:
+            size_hint: 0.15,1
+            text: 'Edit Script'
+            on_release: app.root.current = 'edit'
+    Label:
+        markup: True
+        text: 'Sample. Text.'
+        
+
+
+# <MainWidget>:
+#     orientation: 'vertical'
+#     Label:
+#         size_hint: 1,0.1
+#         text_color: 0,0,0,1
+#         text: "SIMPLI-PREZ"
+
+#     TextInput:
+#         multiline: True
+#         focus: True
