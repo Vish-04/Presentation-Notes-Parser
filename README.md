@@ -1,8 +1,8 @@
-# Simpli-Prez
+# Presentation Notes Parser
 A new, innovative app designed to simplify presenting with a script. Simpli-Prez is compatible on iOS, Andriod, Windows, MacOS, Linux
 
 # Objective
-Ever find yourself in a presentation, lost in the middle of your script, trying to figure out where you left off? Introducing Simpli-Prez. Simpli-Prez takes in an input of a script and bolds each sentence/bullet point line by line, making it easy to read a script. It presents the script in readable blocks, allowing for scripts of ANY length to be processed
+Ever find yourself in a presentation, lost in the middle of your script, trying to figure out where you left off? Introducing the Presentation Notes Parser. Presentation Notes Parser takes in an input of a script and bolds each sentence/bullet point line by line, making it easy to read a script. It presents the script in readable blocks, allowing for scripts of ANY length to be processed
 
 # How to run on Windows, MacOS, Linux
 1) Download the files
